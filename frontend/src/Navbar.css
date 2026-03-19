@@ -1,0 +1,64 @@
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5D3F6B;
+  color: #fff;
+  padding: 1rem;
+}
+
+/* Navbar links styling */
+.navbar-left .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Navbar center links */
+.navbar-center .nav-links {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-center .nav-links li {
+  margin-right: 1rem;
+}
+
+.navbar-center .nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Navbar-right link styling */
+.navbar-right a {
+  color: #fff; /* Set color to white */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Optional hover effect for links */
+.navbar-right a:hover {
+  color: #FFB74D; /* Change color on hover */
+}
+
+/* Additional styles for cart and user icons */
+.navbar-right .cart-icon,
+.navbar-right .user-icon {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 1rem;
+  position: relative;
+}
+
+.navbar-right .cart-count {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  color: #fff;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 0.75rem;
+}
